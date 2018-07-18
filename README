@@ -1,0 +1,43 @@
+To run:
+
+Make sure to use my project 3, since the function names are all hardcoded along
+with their respectful urls.
+
+run:
+
+sudo node index.js 443 https://serviceurl.com:443
+
+keep in mind you don't have to run neither one of these projects on any prede-
+fined port. You can run them on any port but send the requests over https. Also
+make sure to enter the WS_URl correctly. I've done all my tests by running
+project 4 on port 12345 and running project 3 on port 443, and running project 4
+on port 443 on my computer and running project 3 on port 443 on google cloud, and
+confirmed it works.
+
+ALSO!! WS_URL parameter is not optional, neither is the port.
+
+Important note: I didn't bother to remove auth-time parameter from options.js,
+if you send an argument for it, it's simply going to be ignored.
+
+Another note: Since my project 3'
+
+
+I didn't bother to make a seperate errors.html page. As it wouldn't make any
+sense to handle get requests from this page. I simply rendered an error template
+on the screen whenever it needed to show error information on the screen. Another
+reason for it is that it would actually mess up the functionality of the back
+button.
+
+The code is pretty straight forward and self explanatory. The error objects
+returned in catch blocks in service/service.js is for the error template.
+
+The session aspect of this code is simply a cookie. Whenever the cookie exists
+it means there is a session, keep in mind this doesn't make any checks on whether
+the session is timed out or not. If it has timed out the get request performed
+by the root directory will take care of its own.
+
+
+A problem occured with my machine's git, and I couldn't set it up again. So I
+uploaded everything manually. If any problem occurs I've backed up the homework
+folder on my machine, so I can show it to you in its working state if I uploaded
+anything wrong.

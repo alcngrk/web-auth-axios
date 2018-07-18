@@ -1,0 +1,17 @@
+.label {
+  font-weight: bold;
+  padding: 1ex;
+}
+
+.label::after {
+  content: ":"
+}
+
+.error {
+  color: red;
+}
+
+.title {
+  font-style: italic;
+  color: gray;
+}

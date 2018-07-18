@@ -1,0 +1,25 @@
+{
+  "name": "web-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mehmet alican gork",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "minimist": "^1.2.0",
+    "mongo": "^0.1.0",
+    "mustache": "^2.3.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}
