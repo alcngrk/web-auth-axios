@@ -36,8 +36,9 @@ it means there is a session, keep in mind this doesn't make any checks on whethe
 the session is timed out or not. If it has timed out the get request performed
 by the root directory will take care of its own.
 
-
-A problem occured with my machine's git, and I couldn't set it up again. So I
-uploaded everything manually. If any problem occurs I've backed up the homework
-folder on my machine, so I can show it to you in its working state if I uploaded
-anything wrong.
+//TO DO
+//** Specify errors.
+//** Remove auth-time
+//** Do not terminate in case of incorrect parameter, prompt the correct input example.
+//** Project 3 = web-auth
+//** Make sure the actual https port is used instead of allowing any port.
